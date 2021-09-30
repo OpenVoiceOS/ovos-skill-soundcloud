@@ -3,7 +3,7 @@ from ovos_utils.log import LOG
 from json_database import JsonStorageXDG
 from nuvem_de_som import SoundCloud
 from ovos_utils.parse import fuzzy_match
-from ovos_workshop.frameworks.playback import MediaType, \
+from ovos_plugin_common_play.ocp import MediaType, \
     PlaybackType
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill, \
     common_play_search
