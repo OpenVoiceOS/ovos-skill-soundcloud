@@ -6,7 +6,7 @@ from ovos_utils.parse import fuzzy_match
 from ovos_plugin_common_play.ocp import MediaType, \
     PlaybackType
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill, \
-    common_play_search
+    ocp_search
 
 
 class SoundCloudSkill(OVOSCommonPlaybackSkill):
@@ -128,7 +128,7 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
                 self._search_cache[searchtype][phrase] = results
                 self._search_cache.store()
 
-    @common_play_search()
+    @ocp_search()
     def search_tracks(self, phrase, media_type=MediaType.GENERIC):
         # match the request media_type
         base_score = 0
@@ -165,7 +165,7 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
                 "skill_id": self.skill_id
             }
 
-    @common_play_search()
+    @ocp_search()
     def search_artists(self, phrase, media_type=MediaType.GENERIC):
         # match the request media_type
         base_score = 0
@@ -202,7 +202,7 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
                 "skill_id": self.skill_id
             }
 
-    @common_play_search()
+    @ocp_search()
     def search_sets(self, phrase, media_type=MediaType.GENERIC):
         # match the request media_type
         base_score = 0
