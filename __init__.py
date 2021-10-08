@@ -159,7 +159,6 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
                 "image": r["image"],
                 "bg_image": r["image"],
                 "skill_icon": self.skill_icon,
-                "skill_logo": self.skill_icon,  # backwards compat
                 "title": r["title"],
                 "artist": r["artist"],
                 "skill_id": self.skill_id
@@ -196,7 +195,6 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
                 "image": r["image"],
                 "bg_image": r["image"],
                 "skill_icon": self.skill_icon,
-                "skill_logo": self.skill_icon,  # backwards compat
                 "title": r["title"],
                 "artist": r["artist"],
                 "skill_id": self.skill_id
@@ -233,7 +231,6 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
                 "image": r["image"],
                 "bg_image": r["image"],
                 "skill_icon": self.skill_icon,
-                "skill_logo": self.skill_icon,  # backwards compat
                 "title": r["title"],
                 "artist": r["artist"],
                 "skill_id": self.skill_id
