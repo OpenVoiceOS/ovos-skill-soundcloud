@@ -19,12 +19,6 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
         self._search_cache = JsonStorageXDG("soundcloud.search.history",
                                             subfolder="common_play")
 
-        if "artists" not in self._search_cache:
-            self._search_cache["artists"] = {}
-        if "sets" not in self._search_cache:
-            self._search_cache["sets"] = {}
-        if "tracks" not in self._search_cache:
-            self._search_cache["tracks"] = {}
         self.skill_icon = join(dirname(__file__), "ui", "soundcloud.png")
 
     def initialize(self):
@@ -36,6 +30,13 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
         if self.settings["refresh_cache"]:
             self._search_cache.clear()
             self._search_cache.store()
+
+        if "artists" not in self._search_cache:
+            self._search_cache["artists"] = {}
+        if "sets" not in self._search_cache:
+            self._search_cache["sets"] = {}
+        if "tracks" not in self._search_cache:
+            self._search_cache["tracks"] = {}
 
     # score
     @staticmethod
