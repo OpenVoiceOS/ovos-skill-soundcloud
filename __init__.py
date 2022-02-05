@@ -4,10 +4,10 @@ from json_database import JsonStorageXDG
 from nuvem_de_som import SoundCloud
 from ovos_plugin_common_play.ocp import MediaType, \
     PlaybackType
+from ovos_utils.log import LOG
 from ovos_utils.parse import fuzzy_match
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill, \
     ocp_search
-from ovos_utils.log import LOG
 
 
 class SoundCloudSkill(OVOSCommonPlaybackSkill):
@@ -15,16 +15,9 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
         super(SoundCloudSkill, self).__init__("SoundCloud")
         self.supported_media = [MediaType.GENERIC,
                                 MediaType.MUSIC]
-        if "cache" not in self.settings:
-            self.settings["cache"] = True
-        if "refresh_cache" not in self.settings:
-            self.settings["refresh_cache"] = True
 
         self._search_cache = JsonStorageXDG("soundcloud.search.history",
                                             subfolder="common_play")
-        if self.settings["refresh_cache"]:
-            self._search_cache.clear()
-            self._search_cache.store()
 
         if "artists" not in self._search_cache:
             self._search_cache["artists"] = {}
@@ -33,6 +26,16 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
         if "tracks" not in self._search_cache:
             self._search_cache["tracks"] = {}
         self.skill_icon = join(dirname(__file__), "ui", "soundcloud.png")
+
+    def initialize(self):
+        if "cache" not in self.settings:
+            self.settings["cache"] = True
+        if "refresh_cache" not in self.settings:
+            self.settings["refresh_cache"] = True
+
+        if self.settings["refresh_cache"]:
+            self._search_cache.clear()
+            self._search_cache.store()
 
     # score
     @staticmethod
@@ -227,7 +230,7 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
             if r["duration"] < 60:
                 continue
             # we might still get podcasts, would be nice to handle that better
-            if r["duration"] > 60 * 45: # >45 min is probably not music :shrug:
+            if r["duration"] > 60 * 45:  # >45 min is probably not music :shrug:
                 continue
 
             yield {
