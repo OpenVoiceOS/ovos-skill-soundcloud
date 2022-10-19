@@ -4,7 +4,7 @@ from os.path import dirname
 from mycroft.skills.skill_loader import PluginSkillLoader, SkillLoader
 from ovos_plugin_manager.skills import find_skill_plugins
 from ovos_utils.messagebus import FakeBus
-from skill_ovos_setup import SoundCloudSkill, create_skill
+from skill_ovos_soundcloud import SoundCloudSkill, create_skill
 
 
 class TestSkillLoading(unittest.TestCase):
