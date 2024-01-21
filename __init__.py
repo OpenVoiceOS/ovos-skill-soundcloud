@@ -280,16 +280,16 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
         playlist = entities.get("playlist_name")
         skill = "music_streaming_provider" in entities  # skill matched
 
+        results = []
         if skill:
             base_score += 20
-            yield self.get_playlist()
 
         if playlist:
             LOG.debug("searching SoundCloud playlist cache")
             for k, pl in self.playlists.items():
                 if playlist.lower() in k.lower():
                     pl["match_confidence"] = base_score + 35
-                    yield pl
+                    results.append(pl)
 
         urls = []
         if song:
@@ -301,7 +301,7 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
                                    artist.lower() in video.get("artist", "").lower()):
                         s += 30
                     video["match_confidence"] = min(100, s)
-                    yield video
+                    results.append(video)
                     urls.append(video["uri"])
         if artist:
             LOG.debug("searching SoundCloud artist cache")
@@ -311,8 +311,14 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
                 if artist.lower() in video["title"].lower() or \
                         artist.lower() in video.get("artist", "").lower():
                     video["match_confidence"] = min(100, base_score + 30)
-                    yield video
+                    results.append(video)
                     urls.append(video["uri"])
+
+        if skill:
+            pl = self.get_playlist()
+            results.append(pl)
+
+        return results
 
     @ocp_search()
     def search_artists(self, phrase, media_type=MediaType.GENERIC):
