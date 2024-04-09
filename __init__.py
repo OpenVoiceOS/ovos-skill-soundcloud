@@ -21,7 +21,7 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
         self._search_cache = JsonStorageXDG("soundcloud.search.history",
                                             subfolder="common_play")
 
-        self.skill_icon = join(dirname(__file__), "ui", "soundcloud.png")
+        self.skill_icon = join(dirname(__file__), "res", "soundcloud.png")
 
     @classproperty
     def runtime_requirements(self):
