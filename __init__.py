@@ -19,6 +19,7 @@ class SoundCloudSkill(OVOSCommonPlaybackSkill):
         self._search_cache.clear()
         super().__init__(supported_media=[MediaType.MUSIC, MediaType.GENERIC],
                          skill_icon=join(dirname(__file__), "soundcloud.png"),
+                         skill_voc_filename="soundcloud_skill",
                          *args, **kwargs)
 
     @classproperty
