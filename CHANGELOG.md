@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/tree/HEAD)
+## [V0.0.1a2](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/tree/V0.0.1a2) (2024-09-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/compare/1d057e97e09de9157124aafc951b320bad4e3bba...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/compare/1d057e97e09de9157124aafc951b320bad4e3bba...V0.0.1a2)
 
 **Fixed bugs:**
 
