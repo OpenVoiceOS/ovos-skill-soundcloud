@@ -1,0 +1,42 @@
+{
+    "authorname": "JarbasSkills",
+    "foldername": "skill-ovos-soundcloud",
+    "url": "https://github.com/OpenVoiceOS/skill-ovos-soundcloud",
+    "branch": "dev",
+    "license": "apache-2.0",
+    "tags": [
+        "Entertainment",
+        "permissive-license"
+    ],
+    "short_description": "soundcloud skill for OCP",
+    "last_updated": "2022-10-14T21:41:43Z",
+    "icon": "https://github.com/OpenVoiceOS/skill-ovos-soundcloud/ui/soundcloud.png",
+    "skillname": "skill-soundcloud",
+    "description": "search soundcloud by voice!\n\n![](./gui.png)",
+    "examples": [],
+    "credits": [
+        "JarbasAl"
+    ],
+    "category": "Entertainment",
+    "categories": [
+        "Entertainment"
+    ],
+    "requirements": {
+        "python": [
+            "nuvem_de_som",
+            "ovos_workshop>=0.0.5a1"
+        ],
+        "skill": [],
+        "system": {}
+    },
+    "desktopFile": false,
+    "name": "Soundcloud Skill",
+    "systemDeps": false,
+    "platforms": [
+        "arm",
+        "arm64",
+        "i386",
+        "x86_64",
+        "ia64"
+    ]
+}

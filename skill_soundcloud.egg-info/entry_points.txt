@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-ovos-soundcloud.openvoiceos=skill_ovos_soundcloud:SoundCloudSkill
+
