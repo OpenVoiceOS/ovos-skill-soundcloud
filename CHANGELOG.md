@@ -1,11 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/tree/HEAD)
+## [0.1.2a1](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/tree/0.1.2a1) (2024-10-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/compare/V0.0.1...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/compare/V0.0.1...0.1.2a1)
 
 **Merged pull requests:**
 
+- fix:long description [\#11](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/11) ([JarbasAl](https://github.com/JarbasAl))
 - semver [\#10](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/10) ([JarbasAl](https://github.com/JarbasAl))
 
 
