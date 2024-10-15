@@ -5,7 +5,7 @@ from json_database import JsonStorageXDG
 from nuvem_de_som import SoundCloud
 from ovos_utils import classproperty
 from ovos_utils.log import LOG
-from ovos_workshop.backwards_compat import MediaType, PlaybackType, Playlist, PluginStream, dict2entry
+from ovos_utils.ocp import MediaType, PlaybackType, Playlist, PluginStream, dict2entry
 from ovos_utils.parse import fuzzy_match, MatchStrategy
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill, \
