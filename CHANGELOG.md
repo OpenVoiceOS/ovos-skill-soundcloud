@@ -1,21 +1,13 @@
 # Changelog
 
-## [V0.0.1a2](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/tree/V0.0.1a2) (2024-09-02)
+## [0.1.2a1](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/tree/0.1.2a1) (2024-10-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/compare/1d057e97e09de9157124aafc951b320bad4e3bba...V0.0.1a2)
-
-**Fixed bugs:**
-
-- fix imports [\#2](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/2) ([JarbasAl](https://github.com/JarbasAl))
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/compare/V0.0.1...0.1.2a1)
 
 **Merged pull requests:**
 
-- feat/skill\_aliases [\#9](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/9) ([JarbasAl](https://github.com/JarbasAl))
-- refactor/ocp\_modernize [\#8](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/8) ([JarbasAl](https://github.com/JarbasAl))
-- review soundcloud.voc it-it [\#5](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/5) ([denics](https://github.com/denics))
-- feat/runtime\_requirements [\#4](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/4) ([JarbasAl](https://github.com/JarbasAl))
-- workflows [\#3](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/3) ([JarbasAl](https://github.com/JarbasAl))
-- setup.py template [\#1](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+- fix:long description [\#11](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/11) ([JarbasAl](https://github.com/JarbasAl))
+- semver [\#10](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/10) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
