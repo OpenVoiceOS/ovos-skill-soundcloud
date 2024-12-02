@@ -1,16 +1,16 @@
 # Changelog
 
-## [0.1.3a1](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/tree/0.1.3a1) (2024-11-17)
+## [0.1.4a1](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.4a1) (2024-12-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/compare/V0.1.2...0.1.3a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/V0.1.3...0.1.4a1)
 
 **Merged pull requests:**
 
-- fix: skilljson [\#13](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/pull/13) ([JarbasAl](https://github.com/JarbasAl))
+- import galician translations [\#15](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/15) ([JarbasAl](https://github.com/JarbasAl))
 
-## [V0.1.2](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/tree/V0.1.2) (2024-10-15)
+## [V0.1.3](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/V0.1.3) (2024-11-17)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-soundcloud/compare/0.1.2...V0.1.2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.3...V0.1.3)
 
 
 
