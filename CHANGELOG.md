@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.7a1](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.7a1) (2026-03-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.6a3...0.1.7a1)
+
+**Merged pull requests:**
+
+- fix: rename bare lang code locale directories [\#33](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/33) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- Add complete French SoundCloud locale [\#32](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/32) ([goldyfruit](https://github.com/goldyfruit))
+
 ## [0.1.6a3](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.6a3) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.6a2...0.1.6a3)
