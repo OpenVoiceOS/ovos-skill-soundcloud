@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.7a2](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.7a2) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.7a1...0.1.7a2)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#36](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/36) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#35](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/35) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.7a1](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.7a1) (2026-03-24)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.6a3...0.1.7a1)
