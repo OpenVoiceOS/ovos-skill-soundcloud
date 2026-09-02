@@ -4,16 +4,23 @@ from typing import Iterable, Union
 from json_database import JsonStorageXDG
 from nuvem_de_som import SoundCloud
 from ovos_utils import classproperty
-from ovos_utils.log import LOG
+from ovos_utils.log import LOG, log_deprecation
 from ovos_utils.ocp import MediaType, PlaybackType, Playlist, PluginStream, dict2entry
 from ovos_utils.parse import fuzzy_match, MatchStrategy
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill, \
     ocp_search
 
+from version import VERSION_MAJOR
+
 
 class SoundCloudSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
+        log_deprecation("ovos-skill-soundcloud is deprecated and will be "
+                         "replaced by ovos-media-provider-soundcloud once the OCP "
+                         "pipeline's MediaProvider dispatch becomes the default "
+                         "search path — install that MediaProvider plugin instead",
+                         deprecation_version=f"{VERSION_MAJOR + 1}.0.0")
         self._search_cache = JsonStorageXDG("soundcloud.search.history",
                                             subfolder="common_play")
         self._search_cache.clear()
