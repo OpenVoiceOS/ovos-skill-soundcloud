@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.7a3](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.7a3) (2026-09-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.7a2...0.1.7a3)
+
+**Merged pull requests:**
+
+- feat: add da-DK and sv-SE translations [\#39](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/39) ([andlo](https://github.com/andlo))
+- docs: deprecation notice — superseded by MediaProvider plugins [\#38](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/38) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.7a2](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.7a2) (2026-04-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.7a1...0.1.7a2)
