@@ -1,16 +1,59 @@
 # Changelog
 
-## [0.1.5a1](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.5a1) (2024-12-02)
+## [0.1.7a3](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.7a3) (2026-09-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/V0.1.4...0.1.5a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.7a2...0.1.7a3)
 
 **Merged pull requests:**
 
-- import basque translations [\#17](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/17) ([JarbasAl](https://github.com/JarbasAl))
+- feat: add da-DK and sv-SE translations [\#39](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/39) ([andlo](https://github.com/andlo))
+- docs: deprecation notice — superseded by MediaProvider plugins [\#38](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/38) ([JarbasAl](https://github.com/JarbasAl))
 
-## [V0.1.4](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/V0.1.4) (2024-12-02)
+## [0.1.7a2](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.7a2) (2026-04-04)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.4...V0.1.4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.7a1...0.1.7a2)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#36](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/36) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#35](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/35) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.7a1](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.7a1) (2026-03-24)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.6a3...0.1.7a1)
+
+**Merged pull requests:**
+
+- fix: rename bare lang code locale directories [\#33](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/33) ([ovos-localize[bot]](https://github.com/apps/ovos-localize))
+- Add complete French SoundCloud locale [\#32](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/32) ([goldyfruit](https://github.com/goldyfruit))
+
+## [0.1.6a3](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.6a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.6a2...0.1.6a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency python to 3.14 [\#22](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/22) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.6a2](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.6a2) (2025-12-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.6a1...0.1.6a2)
+
+**Merged pull requests:**
+
+- chore: Configure Renovate [\#21](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/21) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.6a1](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/0.1.6a1) (2025-01-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/V0.1.5...0.1.6a1)
+
+**Merged pull requests:**
+
+- fix automations [\#19](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/pull/19) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.1.5](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/tree/V0.1.5) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-soundcloud/compare/0.1.5...V0.1.5)
 
 
 
